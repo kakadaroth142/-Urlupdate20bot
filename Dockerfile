@@ -1,8 +1,13 @@
-FROM python:3.14-rc-alpine3.20
+FROM python:3.12-alpine
+
 WORKDIR /app
-RUN apk add --no-cache ffmpeg jq python3-dev gcc musl-dev
+
+RUN apk add --no-cache ffmpeg gcc musl-dev
+
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+
+RUN pip install --no-cache-dir -r requirements.txt
+
 COPY . .
-RUN python3 -m pip check yt-dlp
+
 CMD ["python3", "bot.py"]
