@@ -1,0 +1,5 @@
+import os
+
+BOT_TOKEN = os.getenv("8640062211:AAEL3T7XsDUM-BTVnkhArFjnKzDsjko_1ag")
+SUPPORT_CONTACT = "@KAKADAROTHKH01"
+DOWNLOAD_FOLDER = "downloads"
