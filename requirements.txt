@@ -8,3 +8,7 @@ motor
 numpy
 Pillow
 hachoir
+psutil
+speedtest-cli
+flask
+gunicorn
