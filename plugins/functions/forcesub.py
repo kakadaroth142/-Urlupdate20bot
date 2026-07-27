@@ -34,12 +34,8 @@ def normalize_channel(raw):
 
 async def handle_force_subscribe(bot, message):
     if not Config.UPDATES_CHANNEL:
-        await bot.send_message(
-            chat_id=message.from_user.id,
-            text="Updates channel not configured.\nPlease contact the admin.",
-            disable_web_page_preview=True,
-        )
-        return 400
+        return  # No force-sub channel set — allow bot to be used freely
+            
 
     channel = normalize_channel(Config.UPDATES_CHANNEL)
 
