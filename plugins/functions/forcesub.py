@@ -13,7 +13,7 @@ def normalize_channel(raw):
       - Full URL:      "https://t.me/Urlupdate20"
       - @username:      "@Urlupdate20"
       - Plain username: "Urlupdate20"
-      - Numeric ID:      -1004476935797 or "-1004476935797"
+      - Numeric ID:      -1004476935797 or "Urlupdate20"
     """
     raw = str(raw).strip()
 
