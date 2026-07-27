@@ -14,3 +14,4 @@ flask
 gunicorn
 aiohttp
 pytz
+filetype
