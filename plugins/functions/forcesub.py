@@ -37,10 +37,12 @@ async def handle_force_subscribe(bot, message):
             ),
         )
         return 400
-    except Exception:
+    except Exception as e:
+        print(f"FORCESUB ERROR: {e}")
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="An unexpected error occurred.\nPlease contact support.",
+            text=f"An unexpected error occurred: {e}",
             disable_web_page_preview=True,
         )
+        return 400
         return 400
