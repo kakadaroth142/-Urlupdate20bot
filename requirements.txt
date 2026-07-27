@@ -13,3 +13,4 @@ speedtest-cli
 flask
 gunicorn
 aiohttp
+pytz
