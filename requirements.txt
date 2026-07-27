@@ -7,4 +7,3 @@ aiofiles
 motor
 numpy
 Pillow
-opencv-python-headless
