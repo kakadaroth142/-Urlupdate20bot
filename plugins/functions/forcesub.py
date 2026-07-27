@@ -2,7 +2,7 @@ import os
 import asyncio
 from plugins.config import Config
 from pyrogram import Client
-from pyrogram.errors import FloodWait, UserNotParticipant, ChatAdminRequired, PeerIdInvalid, ChannelInvalid
+from pyrogram.errors import FloodWait, UserNotParticipant, ChatAdminRequired, PeerIdInvalid
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 async def handle_force_subscribe(bot, message):
@@ -14,18 +14,7 @@ async def handle_force_subscribe(bot, message):
         )
         return 400
 
-    try:
-        invite_link = await bot.create_chat_invite_link(int(Config.UPDATES_CHANNEL))
-    except FloodWait as e:
-        await asyncio.sleep(e.x)
-        return 400
-    except (ChatAdminRequired, PeerIdInvalid, ChannelInvalid, KeyError, ValueError) as e:
-        await bot.send_message(
-            chat_id=message.from_user.id,
-            text="Bot is not properly configured or missing access to the Updates Channel.\nPlease contact the admin!",
-            disable_web_page_preview=True,
-        )
-        return 400
+    invite_link_url = "https://t.me/Urlupdate20"
 
     try:
         user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), message.from_user.id)
@@ -42,7 +31,7 @@ async def handle_force_subscribe(bot, message):
             text="Please join the Updates Channel to use this bot!",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Join Channel", url=invite_link.invite_link)],
+                    [InlineKeyboardButton("Join Channel", url=invite_link_url)],
                     [InlineKeyboardButton("Refresh", callback_data="refreshForceSub")]
                 ]
             ),
