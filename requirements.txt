@@ -12,3 +12,4 @@ psutil
 speedtest-cli
 flask
 gunicorn
+aiohttp
