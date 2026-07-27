@@ -3,3 +3,4 @@ yt-dlp
 requests
 pyrogram
 tgcrypto
+aiofiles
