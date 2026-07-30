@@ -36,3 +36,35 @@ as a file or video.
 | 📢 **Channel** : <a href="https://t.me/Urlupdate45tsy">Channel</a>
 | 👑 **Owner** : @KAKADAROTH
         """
+START_BUTTONS = InlineKeyboardMarkup(
+        [[
+            InlineKeyboardButton('🛠 Settings', callback_data='OpenSettings')
+        ],[
+            InlineKeyboardButton('🤝 Help', callback_data='help'),
+            InlineKeyboardButton('ℹ️ About', callback_data='about')
+        ],[
+            InlineKeyboardButton('✖️ Close', callback_data='close')
+        ]]
+    )
+
+    HELP_BUTTONS = InlineKeyboardMarkup(
+        [[
+            InlineKeyboardButton('🛠 Settings', callback_data='OpenSettings')
+        ],[
+            InlineKeyboardButton('⬅️ Back', callback_data='home'),
+            InlineKeyboardButton('ℹ️ About', callback_data='about')
+        ],[
+            InlineKeyboardButton('✖️ Close', callback_data='close')
+        ]]
+    )
+
+    ABOUT_BUTTONS = InlineKeyboardMarkup(
+        [[
+            InlineKeyboardButton('🛠 Settings', callback_data='OpenSettings')
+        ],[
+            InlineKeyboardButton('⬅️ Back', callback_data='home'),
+            InlineKeyboardButton('🤝 Help', callback_data='help')
+        ],[
+            InlineKeyboardButton('✖️ Close', callback_data='close')
+        ]]
+)
