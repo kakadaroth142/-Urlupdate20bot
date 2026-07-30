@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 class Translation(object):
 
-    START_TEXT = """👋 Hello <b>{}</b> 
+    START_TEXT = """👋😝🤪 Hello <b>{}</b> 
 <blockquote>
 I'm a Telegram URL Uploader Bot 
 Send me a direct link and I'll upload it to Telegram  
@@ -28,9 +28,9 @@ as a file or video.
     ABOUT_TEXT = """
 ╭───────────────⍟
 │ | 🤖 **Bot Name** : Urlupdate 45TSY
-| 🚀 **Framework** : <a href="https://docs.pyrogram.org/">PyroBlock 2.7.5</a>
+| 🚀 **Framework** : <a href="https://docs.poam.org/">PyroBlock 2.7.5</a>
 | 🖥 **Language** : <a href="https://www.python.org">Python 3.13.12</a>
-| 📀 **Database** : <a href="https://cloud.mongodb.com">MongoDB</a>
+| 📀 **Database** : <a href="https://cloud.ngodb.com">MonoDB</a>
 | 📌 **Support** : <a href="https://t.me/KAKADAROTHKH01">Support</a>
 | 👥 **Group** : <a href="https://t.me/Urlupdate20t">Group</a>
 | 📢 **Channel** : <a href="https://t.me/Urlupdate45tsy">Channel</a>
@@ -118,14 +118,14 @@ as a file or video.
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     FORMAT_SELECTION = "<b>Sᴇʟᴇᴄᴛ Yᴏᴜʀ Fᴏʀᴍᴀᴛ 👇</b>\n"
-    SET_CUSTOM_USERNAME_PASSWORD = """<b>🎥 Vɪᴅᴇᴏ = Uᴘʟᴏᴀᴅ As Sᴛʀᴇᴀᴍʙʟᴇ</b>\n\n<b>📂 Fɪʟᴇ = Uᴘʟᴏᴀᴅ As Fɪʟᴇ</b>\n\n<b>👮‍♂ Pᴏᴡᴇʀᴇᴅ Bʏ :</b> @NT_BOT_CHANNEL"""
-    DOWNLOAD_START = "📥 Downloading... 📥\n\nFile Name: {}"
+    SET_CUSTOM_USERNAME_PASSWORD = """<b>😂😂🎥 Vɪᴅᴇᴏ = Uᴘʟᴏᴀᴅ As Sᴛʀᴇᴀᴍʙʟᴇ</b>\n\n<b>📂😒😒 Fɪʟᴇ = Uᴘʟᴏᴀᴅ As Fɪʟᴇ</b>\n\n<b>👮‍♂🫡 Pᴏᴡᴇʀᴇᴅ Bʏ :</b> @KAKADAROTHKH01"""
+    DOWNLOAD_START = "📥 Downloading...🤗😛 📥\n\nFile Name: {}"
     UPLOAD_START = "📤 Uploading... 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2000MB due to Telegram API limitations.\n\nUse 4GB @UploaderXNTBot"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "**𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌** 🥰"
-    SAVED_CUSTOM_THUMB_NAIL = "🖼 Thumbnail saved permanently."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "🗑 Thumbnail deleted successfully."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "**𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌** 😁😳🥰"
+    SAVED_CUSTOM_THUMB_NAIL = "🤭🖼 Thumbnail saved permanently."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "🤨🗑 Thumbnail deleted successfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "😅 No thumbnail found."
