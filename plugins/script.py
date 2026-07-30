@@ -27,13 +27,14 @@ as a file or video.
     
     ABOUT_TEXT = """
 ╭───────────────⍟
-│ 📛 **Bot Name** : URL Uploader Bot
-│ 📢 **Framework** : <a href="https://docs.pyrogram.org/">PyroBlock 2.7.5</a>
-│ 💻 **Language** : <a href="https://www.python.org">Python 3.13.12</a>
-│ 💾 **Database** : <a href="https://cloud.mongodb.com">MongoDB</a>
-│ 🚨 **Support Group** : <a href="https://t.me/NT_BOTS_SUPPORT">NT Support</a>
-│ 🥏 **Channel** : <a href="https://t.me/NT_BOT_CHANNEL">NT Bot Channel</a>
-│ 👨‍💻 **Creator** : @NT_BOT_CHANNEL
+│ | 🤖 **Bot Name** : Urlupdate 20bot
+| 🚀 **Framework** : <
+| 🖥 **Language** : <a 
+| 📀 **Database** : <a
+| 📌 **Support** : <a href="https://t.me/KAKADAROTHKH01">Support</a>
+| 👥 **Group** : <a href="https://t.me/Urlupdate20t">Group</a>
+| 📢 **Channel** : <a href="https://t.me/Urlupdate45tsy">Channel</a>
+| 👑 **Owner** : @KAKADAROTHNT_BOT_CHANNEL
 ╰───────────────⍟
 """
 
@@ -117,7 +118,7 @@ as a file or video.
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     FORMAT_SELECTION = "<b>Sᴇʟᴇᴄᴛ Yᴏᴜʀ Fᴏʀᴍᴀᴛ 👇</b>\n"
-    SET_CUSTOM_USERNAME_PASSWORD = """<b>🎥 Vɪᴅᴇᴏ = Uᴘʟᴏᴀᴅ As Sᴛʀᴇᴀᴍʙʟᴇ</b>\n\n<b>📂 Fɪʟᴇ = Uᴘʟᴏᴀᴅ As Fɪʟᴇ</b>\n\n<b>👮‍♂ Pᴏᴡᴇʀᴇᴅ Bʏ :</b> @NT_BOT_CHANNEL"""
+    SET_CUSTOM_USERNAME_PASSWORD = """<b>🎥 Vɪᴅᴇᴏ = Uᴘʟᴏᴀᴅ As Sᴛʀᴇᴀᴍʙʟᴇ</b>\n\n<b>📂 Fɪʟᴇ = Uᴘʟᴏᴀᴅ As Fɪʟᴇ</b>\n\n<b>👮‍♂ Pᴏᴡᴇʀᴇᴅ Bʏ :</b> @KAKADAROTHKH01"""
     DOWNLOAD_START = "📥 Downloading... 📥\n\nFile Name: {}"
     UPLOAD_START = "📤 Uploading... 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
